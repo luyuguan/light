@@ -1,0 +1,892 @@
+fileFormatVersion: 2
+guid: 8727208431aa34ddcbb2f6ebdd1fc147
+timeCreated: 1502853310
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ankle_L
+    100002: ankle_L 1
+    100004: ankle_L 2
+    100006: ankle_L 3
+    100008: ankle_L 4
+    100010: ankle_L 5
+    100012: ankle_R
+    100014: ankle_R 1
+    100016: ankle_R 2
+    100018: ankle_R 3
+    100020: ankle_R 4
+    100022: ankle_R 5
+    100024: Armature
+    100026: Armature.001
+    100028: Armature.002
+    100030: Armature.003
+    100032: Armature.004
+    100034: Armature.005
+    100036: bicep_L
+    100038: bicep_L 1
+    100040: bicep_L 2
+    100042: bicep_L 3
+    100044: bicep_L 4
+    100046: bicep_L 5
+    100048: bicep_R
+    100050: bicep_R 1
+    100052: bicep_R 2
+    100054: bicep_R 3
+    100056: bicep_R 4
+    100058: bicep_R 5
+    100060: Camera
+    100062: cape_L_R0C0
+    100064: cape_L_R0C0 1
+    100066: cape_L_R0C0 2
+    100068: cape_L_R0C0 3
+    100070: cape_L_R0C0 4
+    100072: cape_L_R0C0 5
+    100074: cape_L_R1C0
+    100076: cape_L_R1C0 1
+    100078: cape_L_R1C0 2
+    100080: cape_L_R1C0 3
+    100082: cape_L_R1C0 4
+    100084: cape_L_R1C0 5
+    100086: cape_L_R2C0
+    100088: cape_L_R2C0 1
+    100090: cape_L_R2C0 2
+    100092: cape_L_R2C0 3
+    100094: cape_L_R2C0 4
+    100096: cape_L_R2C0 5
+    100098: cape_L_R3C0
+    100100: cape_L_R3C0 1
+    100102: cape_L_R3C0 2
+    100104: cape_L_R3C0 3
+    100106: cape_L_R3C0 4
+    100108: cape_L_R3C0 5
+    100110: cape_L_R4C0
+    100112: cape_L_R4C0 1
+    100114: cape_L_R4C0 2
+    100116: cape_L_R4C0 3
+    100118: cape_L_R4C0 4
+    100120: cape_L_R4C0 5
+    100122: cape_L_R4C0_end
+    100124: cape_L_R4C0_end 1
+    100126: cape_L_R4C0_end 2
+    100128: cape_L_R4C0_end 3
+    100130: cape_L_R4C0_end 4
+    100132: cape_L_R4C0_end 5
+    100134: cape_M_R0C0
+    100136: cape_M_R0C0 1
+    100138: cape_M_R0C0 2
+    100140: cape_M_R0C0 3
+    100142: cape_M_R0C0 4
+    100144: cape_M_R0C0 5
+    100146: cape_M_R1C0
+    100148: cape_M_R1C0 1
+    100150: cape_M_R1C0 2
+    100152: cape_M_R1C0 3
+    100154: cape_M_R1C0 4
+    100156: cape_M_R1C0 5
+    100158: cape_M_R2C0
+    100160: cape_M_R2C0 1
+    100162: cape_M_R2C0 2
+    100164: cape_M_R2C0 3
+    100166: cape_M_R2C0 4
+    100168: cape_M_R2C0 5
+    100170: cape_M_R2C0_end
+    100172: cape_M_R2C0_end 1
+    100174: cape_M_R2C0_end 2
+    100176: cape_M_R2C0_end 3
+    100178: cape_M_R2C0_end 4
+    100180: cape_M_R2C0_end 5
+    100182: cape_R_R0C0
+    100184: cape_R_R0C0 1
+    100186: cape_R_R0C0 2
+    100188: cape_R_R0C0 3
+    100190: cape_R_R0C0 4
+    100192: cape_R_R0C0 5
+    100194: cape_R_R1C0
+    100196: cape_R_R1C0 1
+    100198: cape_R_R1C0 2
+    100200: cape_R_R1C0 3
+    100202: cape_R_R1C0 4
+    100204: cape_R_R1C0 5
+    100206: cape_R_R2C0
+    100208: cape_R_R2C0 1
+    100210: cape_R_R2C0 2
+    100212: cape_R_R2C0 3
+    100214: cape_R_R2C0 4
+    100216: cape_R_R2C0 5
+    100218: cape_R_R3C0
+    100220: cape_R_R3C0 1
+    100222: cape_R_R3C0 2
+    100224: cape_R_R3C0 3
+    100226: cape_R_R3C0 4
+    100228: cape_R_R3C0 5
+    100230: cape_R_R4C0
+    100232: cape_R_R4C0 1
+    100234: cape_R_R4C0 2
+    100236: cape_R_R4C0 3
+    100238: cape_R_R4C0 4
+    100240: cape_R_R4C0 5
+    100242: cape_R_R4C0_end
+    100244: cape_R_R4C0_end 1
+    100246: cape_R_R4C0_end 2
+    100248: cape_R_R4C0_end 3
+    100250: cape_R_R4C0_end 4
+    100252: cape_R_R4C0_end 5
+    100254: capebase1_0
+    100256: capebase1_0 1
+    100258: capebase1_0 2
+    100260: capebase1_0 3
+    100262: capebase1_0 4
+    100264: capebase1_0 5
+    100266: clavicle_L
+    100268: clavicle_L 1
+    100270: clavicle_L 2
+    100272: clavicle_L 3
+    100274: clavicle_L 4
+    100276: clavicle_L 5
+    100278: clavicle_R
+    100280: clavicle_R 1
+    100282: clavicle_R 2
+    100284: clavicle_R 3
+    100286: clavicle_R 4
+    100288: clavicle_R 5
+    100290: elbow_L
+    100292: elbow_L 1
+    100294: elbow_L 2
+    100296: elbow_L 3
+    100298: elbow_L 4
+    100300: elbow_L 5
+    100302: elbow_R
+    100304: elbow_R 1
+    100306: elbow_R 2
+    100308: elbow_R 3
+    100310: elbow_R 4
+    100312: elbow_R 5
+    100314: flexSliderNode
+    100316: hair_R0C0
+    100318: hair_R0C0 1
+    100320: hair_R0C0 2
+    100322: hair_R0C0 3
+    100324: hair_R0C0 4
+    100326: hair_R0C0 5
+    100328: hair_R1C0
+    100330: hair_R1C0 1
+    100332: hair_R1C0 2
+    100334: hair_R1C0 3
+    100336: hair_R1C0 4
+    100338: hair_R1C0 5
+    100340: hair_R2C0
+    100342: hair_R2C0 1
+    100344: hair_R2C0 2
+    100346: hair_R2C0 3
+    100348: hair_R2C0 4
+    100350: hair_R2C0 5
+    100352: hair_R2C0_end
+    100354: hair_R2C0_end 1
+    100356: hair_R2C0_end 2
+    100358: hair_R2C0_end 3
+    100360: hair_R2C0_end 4
+    100362: hair_R2C0_end 5
+    100364: head
+    100366: head 1
+    100368: head 2
+    100370: head 3
+    100372: head 4
+    100374: head 5
+    100376: Index1_0_R
+    100378: Index1_0_R 1
+    100380: Index1_0_R 2
+    100382: Index1_0_R 3
+    100384: Index1_0_R 4
+    100386: Index1_0_R 5
+    100388: Index1_1_R
+    100390: Index1_1_R 1
+    100392: Index1_1_R 2
+    100394: Index1_1_R 3
+    100396: Index1_1_R 4
+    100398: Index1_1_R 5
+    100400: Index1_1_R_end
+    100402: Index1_1_R_end 1
+    100404: Index1_1_R_end 2
+    100406: Index1_1_R_end 3
+    100408: Index1_1_R_end 4
+    100410: Index1_1_R_end 5
+    100412: Index_0_L
+    100414: Index_0_L 1
+    100416: Index_0_L 2
+    100418: Index_0_L 3
+    100420: Index_0_L 4
+    100422: Index_0_L 5
+    100424: Index_1_L
+    100426: Index_1_L 1
+    100428: Index_1_L 2
+    100430: Index_1_L 3
+    100432: Index_1_L 4
+    100434: Index_1_L 5
+    100436: Index_1_L_end
+    100438: Index_1_L_end 1
+    100440: Index_1_L_end 2
+    100442: Index_1_L_end 3
+    100444: Index_1_L_end 4
+    100446: Index_1_L_end 5
+    100448: knee_L
+    100450: knee_L 1
+    100452: knee_L 2
+    100454: knee_L 3
+    100456: knee_L 4
+    100458: knee_L 5
+    100460: knee_R
+    100462: knee_R 1
+    100464: knee_R 2
+    100466: knee_R 3
+    100468: knee_R 4
+    100470: knee_R 5
+    100472: knife0_0_L
+    100474: knife0_0_L 1
+    100476: knife0_0_L 2
+    100478: knife0_0_L 3
+    100480: knife0_0_L 4
+    100482: knife0_0_L 5
+    100484: knife0_0_L_end
+    100486: knife0_0_L_end 1
+    100488: knife0_0_L_end 2
+    100490: knife0_0_L_end 3
+    100492: knife0_0_L_end 4
+    100494: knife0_0_L_end 5
+    100496: knife1_0_R
+    100498: knife1_0_R 1
+    100500: knife1_0_R 2
+    100502: knife1_0_R 3
+    100504: knife1_0_R 4
+    100506: knife1_0_R 5
+    100508: knife1_0_R_end
+    100510: knife1_0_R_end 1
+    100512: knife1_0_R_end 2
+    100514: knife1_0_R_end 3
+    100516: knife1_0_R_end 4
+    100518: knife1_0_R_end 5
+    100520: Lamp
+    100522: neck1
+    100524: neck1 1
+    100526: neck1 2
+    100528: neck1 3
+    100530: neck1 4
+    100532: neck1 5
+    100534: pa_6k
+    100536: pa_6k.001
+    100538: pa_6k.002
+    100540: pa_6k.003
+    100542: pa_6k.004
+    100544: pa_6k.005
+    100546: pa_body_mesh
+    100548: pa_cape_mesh
+    100550: pa_daggers_mesh
+    100552: pa_head_mesh
+    100554: pa_helmet_mesh
+    100556: pa_shoulders_mesh
+    100558: pa_weapon_mesh
+    100560: root
+    100562: root 1
+    100564: root 2
+    100566: root 3
+    100568: root 4
+    100570: root 5
+    100572: spine1
+    100574: spine1 1
+    100576: spine1 2
+    100578: spine1 3
+    100580: spine1 4
+    100582: spine1 5
+    100584: spine2
+    100586: spine2 1
+    100588: spine2 2
+    100590: spine2 3
+    100592: spine2 4
+    100594: spine2 5
+    100596: spine3
+    100598: spine3 1
+    100600: spine3 2
+    100602: spine3 3
+    100604: spine3 4
+    100606: spine3 5
+    100608: thigh_L
+    100610: thigh_L 1
+    100612: thigh_L 2
+    100614: thigh_L 3
+    100616: thigh_L 4
+    100618: thigh_L 5
+    100620: thigh_R
+    100622: thigh_R 1
+    100624: thigh_R 2
+    100626: thigh_R 3
+    100628: thigh_R 4
+    100630: thigh_R 5
+    100632: Thumb1_0_R
+    100634: Thumb1_0_R 1
+    100636: Thumb1_0_R 2
+    100638: Thumb1_0_R 3
+    100640: Thumb1_0_R 4
+    100642: Thumb1_0_R 5
+    100644: Thumb1_1_R
+    100646: Thumb1_1_R 1
+    100648: Thumb1_1_R 2
+    100650: Thumb1_1_R 3
+    100652: Thumb1_1_R 4
+    100654: Thumb1_1_R 5
+    100656: Thumb1_1_R_end
+    100658: Thumb1_1_R_end 1
+    100660: Thumb1_1_R_end 2
+    100662: Thumb1_1_R_end 3
+    100664: Thumb1_1_R_end 4
+    100666: Thumb1_1_R_end 5
+    100668: Thumb_0_L
+    100670: Thumb_0_L 1
+    100672: Thumb_0_L 2
+    100674: Thumb_0_L 3
+    100676: Thumb_0_L 4
+    100678: Thumb_0_L 5
+    100680: Thumb_1_L
+    100682: Thumb_1_L 1
+    100684: Thumb_1_L 2
+    100686: Thumb_1_L 3
+    100688: Thumb_1_L 4
+    100690: Thumb_1_L 5
+    100692: Thumb_1_L_end
+    100694: Thumb_1_L_end 1
+    100696: Thumb_1_L_end 2
+    100698: Thumb_1_L_end 3
+    100700: Thumb_1_L_end 4
+    100702: Thumb_1_L_end 5
+    100704: toeBase_L
+    100706: toeBase_L 1
+    100708: toeBase_L 2
+    100710: toeBase_L 3
+    100712: toeBase_L 4
+    100714: toeBase_L 5
+    100716: toeBase_L_end
+    100718: toeBase_L_end 1
+    100720: toeBase_L_end 2
+    100722: toeBase_L_end 3
+    100724: toeBase_L_end 4
+    100726: toeBase_L_end 5
+    100728: toeBase_R
+    100730: toeBase_R 1
+    100732: toeBase_R 2
+    100734: toeBase_R 3
+    100736: toeBase_R 4
+    100738: toeBase_R 5
+    100740: toeBase_R_end
+    100742: toeBase_R_end 1
+    100744: toeBase_R_end 2
+    100746: toeBase_R_end 3
+    100748: toeBase_R_end 4
+    100750: toeBase_R_end 5
+    100752: //RootNode
+    100754: weapon0_0
+    100756: weapon0_0 1
+    100758: weapon0_0 2
+    100760: weapon0_0 3
+    100762: weapon0_0 4
+    100764: weapon0_0 5
+    100766: weapon0_0_end
+    100768: weapon0_0_end 1
+    100770: weapon0_0_end 2
+    100772: weapon0_0_end 3
+    100774: weapon0_0_end 4
+    100776: weapon0_0_end 5
+    100778: wrist_L
+    100780: wrist_L 1
+    100782: wrist_L 2
+    100784: wrist_L 3
+    100786: wrist_L 4
+    100788: wrist_L 5
+    100790: wrist_R
+    100792: wrist_R 1
+    100794: wrist_R 2
+    100796: wrist_R 3
+    100798: wrist_R 4
+    100800: wrist_R 5
+    400000: ankle_L
+    400002: ankle_L 1
+    400004: ankle_L 2
+    400006: ankle_L 3
+    400008: ankle_L 4
+    400010: ankle_L 5
+    400012: ankle_R
+    400014: ankle_R 1
+    400016: ankle_R 2
+    400018: ankle_R 3
+    400020: ankle_R 4
+    400022: ankle_R 5
+    400024: Armature
+    400026: Armature.001
+    400028: Armature.002
+    400030: Armature.003
+    400032: Armature.004
+    400034: Armature.005
+    400036: bicep_L
+    400038: bicep_L 1
+    400040: bicep_L 2
+    400042: bicep_L 3
+    400044: bicep_L 4
+    400046: bicep_L 5
+    400048: bicep_R
+    400050: bicep_R 1
+    400052: bicep_R 2
+    400054: bicep_R 3
+    400056: bicep_R 4
+    400058: bicep_R 5
+    400060: Camera
+    400062: cape_L_R0C0
+    400064: cape_L_R0C0 1
+    400066: cape_L_R0C0 2
+    400068: cape_L_R0C0 3
+    400070: cape_L_R0C0 4
+    400072: cape_L_R0C0 5
+    400074: cape_L_R1C0
+    400076: cape_L_R1C0 1
+    400078: cape_L_R1C0 2
+    400080: cape_L_R1C0 3
+    400082: cape_L_R1C0 4
+    400084: cape_L_R1C0 5
+    400086: cape_L_R2C0
+    400088: cape_L_R2C0 1
+    400090: cape_L_R2C0 2
+    400092: cape_L_R2C0 3
+    400094: cape_L_R2C0 4
+    400096: cape_L_R2C0 5
+    400098: cape_L_R3C0
+    400100: cape_L_R3C0 1
+    400102: cape_L_R3C0 2
+    400104: cape_L_R3C0 3
+    400106: cape_L_R3C0 4
+    400108: cape_L_R3C0 5
+    400110: cape_L_R4C0
+    400112: cape_L_R4C0 1
+    400114: cape_L_R4C0 2
+    400116: cape_L_R4C0 3
+    400118: cape_L_R4C0 4
+    400120: cape_L_R4C0 5
+    400122: cape_L_R4C0_end
+    400124: cape_L_R4C0_end 1
+    400126: cape_L_R4C0_end 2
+    400128: cape_L_R4C0_end 3
+    400130: cape_L_R4C0_end 4
+    400132: cape_L_R4C0_end 5
+    400134: cape_M_R0C0
+    400136: cape_M_R0C0 1
+    400138: cape_M_R0C0 2
+    400140: cape_M_R0C0 3
+    400142: cape_M_R0C0 4
+    400144: cape_M_R0C0 5
+    400146: cape_M_R1C0
+    400148: cape_M_R1C0 1
+    400150: cape_M_R1C0 2
+    400152: cape_M_R1C0 3
+    400154: cape_M_R1C0 4
+    400156: cape_M_R1C0 5
+    400158: cape_M_R2C0
+    400160: cape_M_R2C0 1
+    400162: cape_M_R2C0 2
+    400164: cape_M_R2C0 3
+    400166: cape_M_R2C0 4
+    400168: cape_M_R2C0 5
+    400170: cape_M_R2C0_end
+    400172: cape_M_R2C0_end 1
+    400174: cape_M_R2C0_end 2
+    400176: cape_M_R2C0_end 3
+    400178: cape_M_R2C0_end 4
+    400180: cape_M_R2C0_end 5
+    400182: cape_R_R0C0
+    400184: cape_R_R0C0 1
+    400186: cape_R_R0C0 2
+    400188: cape_R_R0C0 3
+    400190: cape_R_R0C0 4
+    400192: cape_R_R0C0 5
+    400194: cape_R_R1C0
+    400196: cape_R_R1C0 1
+    400198: cape_R_R1C0 2
+    400200: cape_R_R1C0 3
+    400202: cape_R_R1C0 4
+    400204: cape_R_R1C0 5
+    400206: cape_R_R2C0
+    400208: cape_R_R2C0 1
+    400210: cape_R_R2C0 2
+    400212: cape_R_R2C0 3
+    400214: cape_R_R2C0 4
+    400216: cape_R_R2C0 5
+    400218: cape_R_R3C0
+    400220: cape_R_R3C0 1
+    400222: cape_R_R3C0 2
+    400224: cape_R_R3C0 3
+    400226: cape_R_R3C0 4
+    400228: cape_R_R3C0 5
+    400230: cape_R_R4C0
+    400232: cape_R_R4C0 1
+    400234: cape_R_R4C0 2
+    400236: cape_R_R4C0 3
+    400238: cape_R_R4C0 4
+    400240: cape_R_R4C0 5
+    400242: cape_R_R4C0_end
+    400244: cape_R_R4C0_end 1
+    400246: cape_R_R4C0_end 2
+    400248: cape_R_R4C0_end 3
+    400250: cape_R_R4C0_end 4
+    400252: cape_R_R4C0_end 5
+    400254: capebase1_0
+    400256: capebase1_0 1
+    400258: capebase1_0 2
+    400260: capebase1_0 3
+    400262: capebase1_0 4
+    400264: capebase1_0 5
+    400266: clavicle_L
+    400268: clavicle_L 1
+    400270: clavicle_L 2
+    400272: clavicle_L 3
+    400274: clavicle_L 4
+    400276: clavicle_L 5
+    400278: clavicle_R
+    400280: clavicle_R 1
+    400282: clavicle_R 2
+    400284: clavicle_R 3
+    400286: clavicle_R 4
+    400288: clavicle_R 5
+    400290: elbow_L
+    400292: elbow_L 1
+    400294: elbow_L 2
+    400296: elbow_L 3
+    400298: elbow_L 4
+    400300: elbow_L 5
+    400302: elbow_R
+    400304: elbow_R 1
+    400306: elbow_R 2
+    400308: elbow_R 3
+    400310: elbow_R 4
+    400312: elbow_R 5
+    400314: flexSliderNode
+    400316: hair_R0C0
+    400318: hair_R0C0 1
+    400320: hair_R0C0 2
+    400322: hair_R0C0 3
+    400324: hair_R0C0 4
+    400326: hair_R0C0 5
+    400328: hair_R1C0
+    400330: hair_R1C0 1
+    400332: hair_R1C0 2
+    400334: hair_R1C0 3
+    400336: hair_R1C0 4
+    400338: hair_R1C0 5
+    400340: hair_R2C0
+    400342: hair_R2C0 1
+    400344: hair_R2C0 2
+    400346: hair_R2C0 3
+    400348: hair_R2C0 4
+    400350: hair_R2C0 5
+    400352: hair_R2C0_end
+    400354: hair_R2C0_end 1
+    400356: hair_R2C0_end 2
+    400358: hair_R2C0_end 3
+    400360: hair_R2C0_end 4
+    400362: hair_R2C0_end 5
+    400364: head
+    400366: head 1
+    400368: head 2
+    400370: head 3
+    400372: head 4
+    400374: head 5
+    400376: Index1_0_R
+    400378: Index1_0_R 1
+    400380: Index1_0_R 2
+    400382: Index1_0_R 3
+    400384: Index1_0_R 4
+    400386: Index1_0_R 5
+    400388: Index1_1_R
+    400390: Index1_1_R 1
+    400392: Index1_1_R 2
+    400394: Index1_1_R 3
+    400396: Index1_1_R 4
+    400398: Index1_1_R 5
+    400400: Index1_1_R_end
+    400402: Index1_1_R_end 1
+    400404: Index1_1_R_end 2
+    400406: Index1_1_R_end 3
+    400408: Index1_1_R_end 4
+    400410: Index1_1_R_end 5
+    400412: Index_0_L
+    400414: Index_0_L 1
+    400416: Index_0_L 2
+    400418: Index_0_L 3
+    400420: Index_0_L 4
+    400422: Index_0_L 5
+    400424: Index_1_L
+    400426: Index_1_L 1
+    400428: Index_1_L 2
+    400430: Index_1_L 3
+    400432: Index_1_L 4
+    400434: Index_1_L 5
+    400436: Index_1_L_end
+    400438: Index_1_L_end 1
+    400440: Index_1_L_end 2
+    400442: Index_1_L_end 3
+    400444: Index_1_L_end 4
+    400446: Index_1_L_end 5
+    400448: knee_L
+    400450: knee_L 1
+    400452: knee_L 2
+    400454: knee_L 3
+    400456: knee_L 4
+    400458: knee_L 5
+    400460: knee_R
+    400462: knee_R 1
+    400464: knee_R 2
+    400466: knee_R 3
+    400468: knee_R 4
+    400470: knee_R 5
+    400472: knife0_0_L
+    400474: knife0_0_L 1
+    400476: knife0_0_L 2
+    400478: knife0_0_L 3
+    400480: knife0_0_L 4
+    400482: knife0_0_L 5
+    400484: knife0_0_L_end
+    400486: knife0_0_L_end 1
+    400488: knife0_0_L_end 2
+    400490: knife0_0_L_end 3
+    400492: knife0_0_L_end 4
+    400494: knife0_0_L_end 5
+    400496: knife1_0_R
+    400498: knife1_0_R 1
+    400500: knife1_0_R 2
+    400502: knife1_0_R 3
+    400504: knife1_0_R 4
+    400506: knife1_0_R 5
+    400508: knife1_0_R_end
+    400510: knife1_0_R_end 1
+    400512: knife1_0_R_end 2
+    400514: knife1_0_R_end 3
+    400516: knife1_0_R_end 4
+    400518: knife1_0_R_end 5
+    400520: Lamp
+    400522: neck1
+    400524: neck1 1
+    400526: neck1 2
+    400528: neck1 3
+    400530: neck1 4
+    400532: neck1 5
+    400534: pa_6k
+    400536: pa_6k.001
+    400538: pa_6k.002
+    400540: pa_6k.003
+    400542: pa_6k.004
+    400544: pa_6k.005
+    400546: pa_body_mesh
+    400548: pa_cape_mesh
+    400550: pa_daggers_mesh
+    400552: pa_head_mesh
+    400554: pa_helmet_mesh
+    400556: pa_shoulders_mesh
+    400558: pa_weapon_mesh
+    400560: root
+    400562: root 1
+    400564: root 2
+    400566: root 3
+    400568: root 4
+    400570: root 5
+    400572: spine1
+    400574: spine1 1
+    400576: spine1 2
+    400578: spine1 3
+    400580: spine1 4
+    400582: spine1 5
+    400584: spine2
+    400586: spine2 1
+    400588: spine2 2
+    400590: spine2 3
+    400592: spine2 4
+    400594: spine2 5
+    400596: spine3
+    400598: spine3 1
+    400600: spine3 2
+    400602: spine3 3
+    400604: spine3 4
+    400606: spine3 5
+    400608: thigh_L
+    400610: thigh_L 1
+    400612: thigh_L 2
+    400614: thigh_L 3
+    400616: thigh_L 4
+    400618: thigh_L 5
+    400620: thigh_R
+    400622: thigh_R 1
+    400624: thigh_R 2
+    400626: thigh_R 3
+    400628: thigh_R 4
+    400630: thigh_R 5
+    400632: Thumb1_0_R
+    400634: Thumb1_0_R 1
+    400636: Thumb1_0_R 2
+    400638: Thumb1_0_R 3
+    400640: Thumb1_0_R 4
+    400642: Thumb1_0_R 5
+    400644: Thumb1_1_R
+    400646: Thumb1_1_R 1
+    400648: Thumb1_1_R 2
+    400650: Thumb1_1_R 3
+    400652: Thumb1_1_R 4
+    400654: Thumb1_1_R 5
+    400656: Thumb1_1_R_end
+    400658: Thumb1_1_R_end 1
+    400660: Thumb1_1_R_end 2
+    400662: Thumb1_1_R_end 3
+    400664: Thumb1_1_R_end 4
+    400666: Thumb1_1_R_end 5
+    400668: Thumb_0_L
+    400670: Thumb_0_L 1
+    400672: Thumb_0_L 2
+    400674: Thumb_0_L 3
+    400676: Thumb_0_L 4
+    400678: Thumb_0_L 5
+    400680: Thumb_1_L
+    400682: Thumb_1_L 1
+    400684: Thumb_1_L 2
+    400686: Thumb_1_L 3
+    400688: Thumb_1_L 4
+    400690: Thumb_1_L 5
+    400692: Thumb_1_L_end
+    400694: Thumb_1_L_end 1
+    400696: Thumb_1_L_end 2
+    400698: Thumb_1_L_end 3
+    400700: Thumb_1_L_end 4
+    400702: Thumb_1_L_end 5
+    400704: toeBase_L
+    400706: toeBase_L 1
+    400708: toeBase_L 2
+    400710: toeBase_L 3
+    400712: toeBase_L 4
+    400714: toeBase_L 5
+    400716: toeBase_L_end
+    400718: toeBase_L_end 1
+    400720: toeBase_L_end 2
+    400722: toeBase_L_end 3
+    400724: toeBase_L_end 4
+    400726: toeBase_L_end 5
+    400728: toeBase_R
+    400730: toeBase_R 1
+    400732: toeBase_R 2
+    400734: toeBase_R 3
+    400736: toeBase_R 4
+    400738: toeBase_R 5
+    400740: toeBase_R_end
+    400742: toeBase_R_end 1
+    400744: toeBase_R_end 2
+    400746: toeBase_R_end 3
+    400748: toeBase_R_end 4
+    400750: toeBase_R_end 5
+    400752: //RootNode
+    400754: weapon0_0
+    400756: weapon0_0 1
+    400758: weapon0_0 2
+    400760: weapon0_0 3
+    400762: weapon0_0 4
+    400764: weapon0_0 5
+    400766: weapon0_0_end
+    400768: weapon0_0_end 1
+    400770: weapon0_0_end 2
+    400772: weapon0_0_end 3
+    400774: weapon0_0_end 4
+    400776: weapon0_0_end 5
+    400778: wrist_L
+    400780: wrist_L 1
+    400782: wrist_L 2
+    400784: wrist_L 3
+    400786: wrist_L 4
+    400788: wrist_L 5
+    400790: wrist_R
+    400792: wrist_R 1
+    400794: wrist_R 2
+    400796: wrist_R 3
+    400798: wrist_R 4
+    400800: wrist_R 5
+    4300000: pa_shoulders_mesh
+    4300002: pa_weapon_mesh
+    4300004: pa_helmet_mesh
+    4300006: pa_daggers_mesh
+    4300008: pa_cape_mesh
+    4300010: pa_head_mesh
+    4300012: pa_body_mesh
+    9500000: //RootNode
+    13700000: pa_body_mesh
+    13700002: pa_cape_mesh
+    13700004: pa_daggers_mesh
+    13700006: pa_head_mesh
+    13700008: pa_helmet_mesh
+    13700010: pa_shoulders_mesh
+    13700012: pa_weapon_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

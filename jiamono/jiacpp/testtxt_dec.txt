@@ -1,0 +1,54 @@
+#include <stdio.h> 
+#include <stdlib.h>
+
+void mono_data_process(unsigned char* data)
+{
+	data[0] += 1;
+	data[2] += 3;
+	data[4] += 5;
+	data[8] += 9;
+	data[16] += 17;
+	data[32] += 33;
+}
+
+
+void mono_data_jiami(unsigned char* data)
+{
+	data[0] -= 1;
+	data[2] -= 3;
+	data[4] -= 5;
+	data[8] -= 9;
+	data[16] -= 17;
+	data[32] -= 33;
+}
+
+int main(int argc, char** argv)
+{
+	char* param = argv[0];
+	char* file = argv[1];
+	char* fileOut = argv[2];
+
+	FILE *fp =fopen(file,"rb");
+    fseek(fp, 0, SEEK_END);  
+    long siz = ftell(fp);
+    unsigned char* bytebuf = (unsigned char*)malloc(siz);  
+    fread(bytebuf, 1, siz, fp);
+
+	if(param[0] == 'e')
+	{
+		mono_data_jiami(bytebuf);
+	}
+	else if(param[0] == 'd')
+	{
+		mono_data_process(bytebuf);
+	}
+
+	FILE *fpOut =fopen(fileOut,"wb");
+	fwrite(bytebuf, 1, siz, fpOut);
+
+	free(bytebuf);
+	fclose(fp);
+	fflush(fpOut);
+	fclose(fpOut);
+	return 0;
+}
